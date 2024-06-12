@@ -1,6 +1,8 @@
 SPLIT_KEYBOARD = yes
 ENCODER_MAP_ENABLE = yes
 
-# Comment to flash to Elite-C
-# Uncomment to flash to Pro-Micro
+# Uncomment one or the other to use the correct flasher
+# Elite C
 BOOTLOADER = atmel-dfu
+# Pro-Micro
+# BOOTLOADER = catarina
