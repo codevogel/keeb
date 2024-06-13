@@ -32,7 +32,7 @@ There are two components in this directory:
    ```
 5. Unplug the Keeb. Remove the TRSS cable from both sides. Plug the USB cable back into one half of the Keeb. 
 
-6. Compile and flash the firmware to your Keeb. When asked, short the ground pins to enter bootloader mode. (If things don't work, read step 7 to make sure you are using the right flasher) 
+6. Compile and flash the firmware to your Keeb. When asked, short the reset pins to enter bootloader mode. (If things don't work, read step 7 to make sure you are using the right flasher) 
 
    ```bash
    qmk flash -kb sofle_choc -km codevogel
